@@ -10,7 +10,7 @@ import {
 //Chave aula 1: LevelUp
 //Chave aula 2: Journey
 //Chave aula 3: UntilTheEnd
-import { Home } from './src/screens/Home';
+import { Routes } from "./src/routes";
 import { Background } from "./src/components/Background";
 import { Loading } from "./src/components/Loading";
 
@@ -28,7 +28,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      { fontsLoaded ? <Home /> : <Loading /> }
+      { fontsLoaded ? <Routes /> : <Loading /> }
     </Background>
   );
 }
