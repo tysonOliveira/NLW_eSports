@@ -74,7 +74,7 @@ function App() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="flex flex-col gap-2">
                   <label htmlFor="yearPlaying">Joga há quantos anos?</label>
-                  <Input id="yearPlaying" type="number" placeholder="Tudo bem ser ZERO" />
+                  <Input id="yearPlaying" type="number" min={0} placeholder="Tudo bem ser ZERO" />
                 </div>
                 <div className="flex flex-col gap-2">
                   <label htmlFor="discord">Qual seu Discord?</label>
